@@ -1,0 +1,35 @@
+/* Estilo para o fundo da página */
+body {
+    background-color: #407076;
+    text-align: center;
+}
+
+/* Estilo para o título */
+.title {
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+
+/* Estilo para o contêiner dos botões */
+.btn-container {
+    display: grid; /* Usando grid para organizar os botões */
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    grid-auto-rows: auto; /* Altura automática das linhas */
+    grid-gap: 20px; /* Espaçamento entre os botões */
+    justify-content: center; /* Centralizando horizontalmente */
+    align-content: center; /* Centralizando verticalmente */
+    height: 80vh; /* Definindo a altura do contêiner para ocupar toda a altura da tela */
+}
+
+/* Estilo para os botões */
+.btn-class {
+    font-size: 24px; /* Tamanho da fonte */
+    padding: 12px 24px; /* Espaçamento interno (topo/baixo e esquerda/direita) */
+    background-color: #ED254E; /* Cor de fundo */
+    color: #ffffff; /* Cor da fonte (branco) */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Bordas arredondadas */
+}

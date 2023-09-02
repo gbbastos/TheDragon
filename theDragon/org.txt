@@ -1,0 +1,23 @@
+my_rpg_project/
+│
+├── app/                # Pasta principal do aplicativo
+│   ├── __init__.py    # Arquivo de inicialização do pacote
+│   ├── models.py       # Definições de modelos de dados (por exemplo, classes, personagens)
+│   ├── views.py        # Definições de visualizações (controladores)
+│   ├── controllers/    # Pacote opcional para controladores adicionais
+│   ├── templates/      # Templates HTML para as visualizações
+│   └── static/         # Arquivos estáticos (CSS, JS, imagens)
+│
+├── config/             # Configurações do aplicativo
+│   ├── __init__.py
+│   ├── settings.py     # Configurações gerais (por exemplo, configuração de banco de dados)
+│   ├── constants.py    # Constantes do aplicativo
+│   └── secrets.py      # Configurações sensíveis (por exemplo, chaves de API)
+│
+├── migrations/          # Arquivos de migração do banco de dados (se estiver usando um ORM)
+│
+├── tests/               # Testes automatizados
+│
+├── requirements.txt     # Lista de dependências do Python
+├── README.md            # Documentação do projeto
+└── run.py               # Arquivo para iniciar o aplicativo
